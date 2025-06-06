@@ -23,6 +23,7 @@
   cursor: pointer;
   padding: 0 1rem;
   user-select: none;
+  background-color: yellow;
 }
 
 .dots {

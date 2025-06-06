@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import type { SliderProps } from './Slider.types';
-import styles from './Slider.module.css';
+import styles from '../../styles/styles.css';
 
 export const Slider: React.FC<SliderProps> = ({
   children,
