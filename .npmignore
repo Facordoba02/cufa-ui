@@ -1,0 +1,14 @@
+node_modules
+src
+demo
+.git
+.gitignore
+npm-debug.log
+*.log
+.eslintrc.json
+.prettierrc
+tsconfig.json
+.DS_store
+Thumbs.db
+.vite
+.vscode
