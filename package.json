@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build": "tsup src/index.ts --format esm,cjs --dts && node copy-css.js",
     "clean": "rm -rf dist",
     "lint": "eslint src --ext .ts,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1",
